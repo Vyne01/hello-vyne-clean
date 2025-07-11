@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello Vyne</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="img/vyne-logo.png">
+</head>
+<body>
+  <div class="container">
+    <h1>👋 Hello, I’m <span>Vyne</span></h1>
+    <p>Your AI that grows with you – mind, body, and beyond.</p>
+    <button onclick="scrollToAbout()">What is Vyne?</button>
+  </div>
+
+  <section id="about">
+    <h2>What is Vyne?</h2>
+    <p>Vyne is your personal AI companion — built to help you grow mentally, physically, and emotionally.</p>
+    <p>Whether you’re a student, a dreamer, or a hustler, Vyne helps you stay focused, track your goals, and evolve every day.</p>
+  </section>
+
+  <section id="chat">
+    <h2>Talk to Vyne</h2>
+    <div class="chatbox">
+      <div id="chat-log"></div>
+      <input type="text" id="user-input" placeholder="Type your message..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
